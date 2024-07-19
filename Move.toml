@@ -1,0 +1,15 @@
+[package]
+name = "registro"
+version = "0.0.0"
+
+[addresses]
+ecevet = "0x19b07e4d67887a7cb1404cab29ce794759ee35c8f4e15d51516fb887eccefb02"
+[dependencies.AptosStdlib]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-stdlib'
+
+[dependencies.MoveStdlib]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/move-stdlib'
